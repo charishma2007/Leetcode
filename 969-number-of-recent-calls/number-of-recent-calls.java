@@ -1,7 +1,7 @@
 class RecentCounter {
-    ArrayDeque<Integer> q = new ArrayDeque<>();
+    ArrayDeque<Integer> q;
     public RecentCounter() {
-        
+        this.q = new ArrayDeque<>();
     }
     
     public int ping(int t) {
