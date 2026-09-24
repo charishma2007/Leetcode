@@ -24,14 +24,15 @@ class Solution {
                     st2.push(ch);
                 }
         }
-        StringBuilder sb1 = new StringBuilder();
-        StringBuilder sb2 = new StringBuilder();
-        for(char x : st1){
-            sb1.append(x);
-        }
-        for(char x : st2){
-            sb2.append(x);
-        }
-        return sb1.toString().equals(sb2.toString());
+        // StringBuilder sb1 = new StringBuilder();
+        // StringBuilder sb2 = new StringBuilder();
+        // for(char x : st1){
+        //     sb1.append(x);
+        // }
+        // for(char x : st2){
+        //     sb2.append(x);
+        // }
+        // return sb1.toString().equals(sb2.toString());
+        return st1.equals(st2);
     }
 }
